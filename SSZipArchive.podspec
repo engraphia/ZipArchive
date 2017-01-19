@@ -15,4 +15,5 @@ Pod::Spec.new do |s|
   s.public_header_files = 'SSZipArchive/*.h'
   s.library = 'z'
   s.requires_arc = true
+  s.module_name   = "ZipArchive"
 end
